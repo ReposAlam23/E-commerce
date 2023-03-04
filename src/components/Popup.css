@@ -1,0 +1,47 @@
+.outer-div{
+    position: fixed;
+    top: 15vh;
+    left: 17.5vw;
+    width: 65vw;
+    z-index: 200;
+}
+
+.inner-div{
+    box-shadow: 10px 10px 1000px rgb(2, 2, 2);
+    position: absolute;
+    background-color: #e1e5d3;
+    top: 0;
+    left: 0;
+    width: 65vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+.pop-header{
+    display: flex;
+    justify-content: space-between;
+}
+.pop-header {
+    height: 2rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.pop-header > button:hover{
+    background-color: #e74c4c;
+}
+.pop-body{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.pop-img-div{
+    width: 30vw;
+    height: 50vh;
+}
+.pop-img-div > img{
+    border-radius: 3rem
+}
+.pop-description{
+    width: 25vw;
+}
